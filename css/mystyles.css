@@ -33,6 +33,11 @@ footer {
 }
 
 
+div svg {
+	width: 7vw;
+	height: auto;
+}
+
 /*==========
 Typography
 ===========*/
@@ -113,10 +118,6 @@ header.row {
 	max-width: 100%;
 }
 
-.social svg {
-	width: 7vw;
-	height: auto;
-}
 
 /*===========
 Media Queries
