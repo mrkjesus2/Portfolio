@@ -4,6 +4,39 @@
 	color: #757575;
 }
 
+/*=========
+Containers
+=========*/
+
+.container {
+	width: 96%;
+	height: 100%;
+	margin: auto;
+}
+
+.row {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+section {
+	margin: 10px auto;
+}
+
+footer {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: nowrap;
+	margin: 30px 0;
+}
+
+
+/*==========
+Typography
+===========*/
+
 h1 {
 	font-weight: 100;
 	font-size: 7vw;
@@ -37,17 +70,6 @@ hr {
 	border: 2px solid #dad5d5;
 }
 
-section {
-	margin: 10px auto;
-}
-
-footer {
-	display: flex;
-	justify-content: space-around;
-	flex-wrap: nowrap;
-	margin: 30px 0;
-}
-
 a{
 	color: gray;
 	font-size: 3vw;
@@ -60,18 +82,9 @@ img {
 	height: auto;
 }
 
-.container {
-	width: 96%;
-	height: 100%;
-	margin: auto;
-}
-
-.row {
-	width: 100%;
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-between;
-}
+/*========
+Classes
+========*/
 
 header.row {
 	flex-wrap: nowrap;
@@ -104,6 +117,10 @@ header.row {
 	width: 7vw;
 	height: auto;
 }
+
+/*===========
+Media Queries
+===========*/
 
 @media screen and (max-width: 500px) {
 	/*below this is single column
