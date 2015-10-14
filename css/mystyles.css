@@ -72,6 +72,12 @@ h4 {
 	margin: 0 0;
 }
 
+p {
+	color: black;
+	font-size: 3vw;
+	padding: 0 0.5em;
+}
+
 hr {
 	border: 2px solid #837676;
 }
@@ -126,6 +132,10 @@ Media Queries
 @media screen and (max-width: 350px) {
 	.header-logo {
 		width: 50px;
+	}
+
+	a {
+		font-size: 4vw;
 	}
 }
 
@@ -197,6 +207,10 @@ Media Queries
 
 	.container {
 		width: 80%;
+	}
+
+	p {
+		font-size: 1em;
 	}
 }
 
