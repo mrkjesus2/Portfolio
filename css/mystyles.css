@@ -108,7 +108,6 @@ header.row {
 }
 
 .header-text {
-	flex-grow: 3;
 	text-align: right;
 	text-transform: uppercase;
 }
