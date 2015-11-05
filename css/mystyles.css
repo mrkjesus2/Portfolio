@@ -1,9 +1,10 @@
 * {
 	/*border: 2px solid red !important;*/
-	font-family: "Roboto" sans-serif;
-	color: #757575;
+	font-family: "Roboto", sans-serif;
+	color: #816c6c;
 }
 
+<<<<<<< HEAD
 /*=========
 Containers
 =========*/
@@ -33,6 +34,11 @@ footer {
 }
 
 
+div svg {
+	width: 7vw;
+	height: auto;
+}
+
 /*==========
 Typography
 ===========*/
@@ -54,8 +60,9 @@ h3 {
 	font-weight: 300;
 	/*font-size should be 4.2vw to match mockup*/
 	font-size: 6.5vw;
-	color: #d4cccc;
+	color: #8a8a8a;
 	letter-spacing: 2px;
+	text-shadow: 3px 1px #e0ddd8;
 }
 
 h4 {
@@ -66,9 +73,16 @@ h4 {
 	margin: 0 0;
 }
 
-hr {
-	border: 2px solid #dad5d5;
+p {
+	color: black;
+	font-size: 3vw;
+	padding: 0 0.5em;
 }
+
+hr {
+	border: 2px solid #837676;
+}
+
 
 a{
 	color: gray;
@@ -96,7 +110,6 @@ header.row {
 }
 
 .header-text {
-	flex-grow: 3;
 	text-align: right;
 	text-transform: uppercase;
 }
@@ -113,24 +126,31 @@ header.row {
 	max-width: 100%;
 }
 
-.social svg {
-	width: 7vw;
-	height: auto;
-}
 
 /*===========
 Media Queries
 ===========*/
+@media screen and (max-width: 350px) {
+	.header-logo {
+		width: 50px;
+	}
 
-@media screen and (max-width: 500px) {
-	/*below this is single column
-	  above this, take a look at options
-	 */
+	a {
+		font-size: 4vw;
+	}
+}
+
+
+@media screen and (min-width: 351px) and (max-width: 500px) {
+	.header-logo {
+		width: 75px;
+	}
+
 	section:first-child {
 		margin-top: 0;
 	}
 
-	main header.row {
+	.main-header {
 		justify-content: center;
 	}
 }
@@ -189,6 +209,10 @@ Media Queries
 
 	.container {
 		width: 80%;
+	}
+
+	p {
+		font-size: 1em;
 	}
 }
 
