@@ -4,6 +4,7 @@
 	color: #816c6c;
 }
 
+<<<<<<< HEAD
 /*=========
 Containers
 =========*/
@@ -82,6 +83,7 @@ hr {
 	border: 2px solid #837676;
 }
 
+
 a{
 	color: gray;
 	font-size: 3vw;
@@ -137,6 +139,7 @@ Media Queries
 		font-size: 4vw;
 	}
 }
+
 
 @media screen and (min-width: 351px) and (max-width: 500px) {
 	.header-logo {
